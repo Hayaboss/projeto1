@@ -1,1 +1,23 @@
-# projeto1
+o codigo do mysql
+
+
+CREATE DATABASE IF NOT EXISTS projeto1;
+
+
+USE projeto1;
+
+-- 3. TABELA CLIENTES
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente VARCHAR(150) NOT NULL,
+    cidade VARCHAR(100),
+    estado VARCHAR(50)
+);
+
+-- 4. TABELA PRODUTOS
+CREATE TABLE produtos (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	produto VARCHAR(150) NOT NULL,
+	preco DECIMAL(10,2) NOT NULL,
+    estoque INT(11) NOT NULL
+); 
