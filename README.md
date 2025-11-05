@@ -1,4 +1,4 @@
-o codigo do mysql
+o codigo do mysql adicionei a aba produtos para cadastrar e visualizar
 
 
 CREATE DATABASE IF NOT EXISTS projeto1;
